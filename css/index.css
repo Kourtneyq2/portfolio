@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --buttonColor: #FB5012; 
+    --textColor: rgb(255,2,3);
+    --headingColor: rgb(120,213,215);
+
+}
+
+body{
+    background:#ffffff;
+}
+
+.section-wrap{
+    width: 70%;
+    margin:auto;
+}
+
+a{
+    color:#000;
+    text-decoration: none;
+}
+
+h2{
+    color: var(--headingColor);
+    font-weight: 500;
+    font-size: 3em;
+}
+
+header{
+    margin:20px;
+}
+
+ul{
+    list-style: none;
+}
+
+nav > ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > ul > li{
+    margin: 0px 10px;
+}
+
+nav > ul > li > a{
+    padding: 10px 20px;
+    background: var(--buttonColor);
+    color: #fff;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+
+nav > ul > li > a:hover{
+    text-decoration: underline;
+}
+
+#first-section{
+    height: calc(100vh - 60px);
+    background: #F7F9F9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*flex-flow*/
+}
+
+#first-section .section-wrap{
+    text-align: center;
+}
+
+#first-section h1{
+    font-family: sans-serif;
+    font-size: 5em;
+    color: var(--headingColor);
+}
+
+#first-section p{
+    color:#BED8D4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#about, #projects, #work, #contact{
+    text-align: center;
+    padding: 100px;
+}
+
+#about{
+}
+
+#about .section-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+}
+
+#about img{
+    width: 100%;
+}
+
+#about .section-div{
+    flex:1;
+}
+
+#top-button{
+    position:fixed;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+}
+
+#up-top > p{ 20px;
+    background: #FB5012 !important;
+    padding: 20px;
+    align-items: center;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
